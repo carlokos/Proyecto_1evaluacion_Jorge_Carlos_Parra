@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto-1Evaluacion_Jorge_Carlos_Parra</string>
+    <string name="User">Username</string>
+    <string name="pw">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Create">Create new user</string>
+    <string name="volver">Return</string>
+    <string name="Menu">Navegation</string>
+    <string name="Salir">Log-out</string>
+    <string name="Ajustes">Settings</string>
+    <string name="Display">Display</string>
+    <string name="Informacion">Information</string>
+</resources>

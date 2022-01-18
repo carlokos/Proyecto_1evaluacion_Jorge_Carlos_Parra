@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/Display"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="Mostrar"
+        android:summaryOff="Los juegos no estaran ordenados alfabeticamente"
+        android:summaryOn="Los juegos estaran ordenados alfabeticamente"
+        android:title="Ordenar"
+        android:icon="@drawable/sortby"/>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Proyecto-1Evaluacion_Jorge_Carlos_Parra</string>
+    <string name="User">Usuario</string>
+    <string name="pw">Contraseña</string>
+    <string name="Login">Iniciar sesion</string>
+    <string name="Register">Registrarse</string>
+    <string name="Create">Crear nuevo usuario</string>
+    <string name="volver">Volver</string>
+    <string name="Menu">Navegacion</string>
+    <string name="Salir">Salir</string>
+    <string name="Ajustes">Ajustes</string>
+    <string name="Display">Apariencia</string>
+    <string name="Informacion">Información</string>
+</resources>

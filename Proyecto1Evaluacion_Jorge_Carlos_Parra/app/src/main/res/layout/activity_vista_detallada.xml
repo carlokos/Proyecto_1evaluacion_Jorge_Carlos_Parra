@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.Vista_Detallada">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/imgIconoDetallado"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtDescripcionDetallada"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="kjdafhjdsfhjdasfdsfjadsfjadsfjkdasfhkdafhsadfjdasfadsfhdasfjkfadskdasfjkdasfhhdfhkasdjffhsdkjfhsdakjfhasdkjlfhxhlkjhdvjklas"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPlataformaDetallada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Plataform: xxxx"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescripcionDetallada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloDetallado" />
+
+    <TextView
+        android:id="@+id/txtGeneroDetallado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Genre: xxxx"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescripcionDetallada"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloDetallado" />
+
+    <TextView
+        android:id="@+id/txtTituloDetallado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="txtTituloDetallado"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgIconoDetallado" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
